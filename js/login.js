@@ -16,9 +16,9 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     // do not verify email password on the clint side
     // verify email and password and check whether valid user or not
     if (email === 'ripon@gmail.com' && password === 'ripon') {
-        console.log('valid user')
+        window.location.href = 'bank.html';
     }
     else {
-        console.log('invalid user');
+        alert('Please provide correct email and Password');
     }
 })
