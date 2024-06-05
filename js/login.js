@@ -6,9 +6,9 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     const password = passwordField.value;
 
     if (email === 'ripon@gmail.com' && password === 'ripon') {
-        console.log('valid user');
+        window.location.href = 'bank.html';
     }
     else {
-        console.log('Invalid user');
+        alert('Toue password vula gacosh, Toki ami tejjo sontan gosona korlam');
     }
 })
